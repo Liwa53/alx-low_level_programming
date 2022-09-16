@@ -8,7 +8,6 @@
 */
 int main(void)
 {
-<<<<<<< HEAD
 int i;
 printf("Infinite loop incoming :(\n");
 /**
@@ -20,7 +19,7 @@ printf("Infinite loop incoming :(\n");
 * }
 */
 printf("Infinite loop avoided! \\o/\n");
-=======
+
 	int i;
 
 	printf("Infinite loop incoming :(\n");
@@ -33,7 +32,6 @@ printf("Infinite loop avoided! \\o/\n");
 	* }
 	*/
 	printf("Infinite loop avoided! \\o/\n");
->>>>>>> da4d79a902f913b6939098b006465936c0d7b0c0
 
 	return (0);
 }
