@@ -1,15 +1,24 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - prints all single digit numbers of base
- * 10 starting from 0, followed by a new line
- * Return: Always 0 (Success)
+ * print_sign - function to check for a sign of a number
+ * @n:  is the int that will use for the argument of the function
+ * Return: 0
  */
-int main(void)
+int print_sign(int n)
 {
-int n;
-
-for (n = 0; n < 10; n++)
-printf("%d", n);
-printf("\n");
+if (n > 0)
+{
+_putchar('+');
+return (1);
+}
+else if (n < 0)
+{
+_putchar('-');
+return (-1);
+}
+else
+{
+_putchar('0');
 return (0);
+}
 }
